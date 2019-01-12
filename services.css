@@ -1,0 +1,26 @@
+.service_circle {
+  background: url(https://d13yacurqjgara.cloudfront.net/users/212457/screenshots/2212523/yo.jpg) #000;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  transition: all .3s ease-in-out;
+}
+
+.service_circle:hover {
+  border-radius:0;  
+  cursor: pointer;
+}
+
+.circle_text {
+  color: #fff;
+  opacity: 0;
+  text-align: center;
+  text-align: middle;
+  padding-top: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.service_circle:hover .circle_text {
+  padding-top: 40px;
+  opacity: 1;
+}

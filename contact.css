@@ -5,9 +5,14 @@
 #contact {
   overflow: auto;
 }
+#form{
+  text-align: center;
+  margin: 100px auto;
+}
+
 #contact #form {
   width:410px;
-  float:left;
+/*  float:left;*/
 }
 
 #contact #form span {
